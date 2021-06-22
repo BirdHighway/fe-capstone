@@ -10,6 +10,8 @@ cd fe-capstone
 npm install
 ````
 
+Within the /server directory, copy the contents of config.example.js into a new file config.js. Replace the token with a valid Github token
+
 ## Development Work
 To view the site in the browser you will need to transpile with Babel and start the Express proxy server.
 
