@@ -8,8 +8,7 @@
     "test-server": "jest --detectOpenHandles --coverage -c jest.server.config.js",
     "build": "webpack --watch --config webpack.dev.js",
     "build-production": "webpack --config webpack.prod.js",
-    "start": "nodemon server/index.js",
-    "postinstall": "curl -s https://raw.githubusercontent.com/hackreactor/precourse-pomander/master/bin/install | bash"
+    "start": "nodemon server/index.js"
   },
   "repository": {
     "type": "git",
